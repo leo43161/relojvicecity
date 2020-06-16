@@ -1,0 +1,152 @@
+/* font-family: 'Londrina Outline', cursive;
+font-family: 'Orbitron', sans-serif; */
+@font-face {
+    font-family: 'Rage';
+    src: url(../font/Rage.TTF);
+}
+
+@font-face {
+    font-family: 'Pricedown';
+    src: url(../font/PRICEDOW.TTF);
+}
+
+html, body {
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    height: 100%;
+}
+
+.timer {
+    font-family: 'Rage';
+    text-align: center;
+    font-size: 5em;
+    color: #FFFFFF;
+    letter-spacing: 0.15em;
+}
+
+.fecha {
+    font-family: 'Pricedown';
+    text-align: center;
+    font-size: 4em;
+    color: #FFFFFF;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.cambiar {
+    font-family: 'Rage';
+    text-align: center;
+    font-size: 5em;
+    color: #FFFFFF;
+    letter-spacing: 0.15em;
+}
+
+.retro2 {
+    text-shadow:
+        0 0 5px #0266C8,
+        0 0 5px #0266C8,
+        0 0 6px #0266C8,
+        0 0 7px #0266C8,
+        0 0 8px #0266C8,
+        0 0 9px #0266C8,
+        0 0 9px #0266C8,
+        0 0 9px #0266C8;
+}
+
+.retro1 {
+    text-shadow:
+        0 0 5px #EB8AB8,
+        0 0 5px #EB8AB8,
+        0 0 6px #EB8AB8,
+        0 0 7px #EB8AB8,
+        0 0 8px #EB8AB8,
+        0 0 9px #EB8AB8,
+        0 0 9px #EB8AB8,
+        0 0 9px #EB8AB8;
+}
+
+.retro3 {
+    text-shadow:
+        0 0 5px #B28BC0,
+        0 0 5px #B28BC0,
+        0 0 6px #B28BC0,
+        0 0 7px #B28BC0,
+        0 0 8px #B28BC0,
+        0 0 9px #B28BC0,
+        0 0 9px #B28BC0,
+        0 0 9px #B28BC0;
+}
+
+/*Responsive*/
+
+@media (max-width: 575.98px) {
+    .timer {
+        font-size: 2em;
+    }
+
+    .fecha {
+        font-size: 20px;
+        letter-spacing: 0.15em;
+    }
+
+    .cambiar {
+        font-size: 3em;
+    }
+
+    .retro1 {
+        text-shadow:
+            0 0 3px #EB8AB8,
+            0 0 3px #EB8AB8,
+            0 0 3px #EB8AB8,
+            0 0 3px #EB8AB8,
+            0 0 4px #EB8AB8,
+            0 0 4px #EB8AB8,
+            0 0 4px #EB8AB8,
+            0 0 5px #EB8AB8;
+    }
+
+    .retro2 {
+        text-shadow:
+            0 0 3px #0266C8,
+            0 0 3px #0266C8,
+            0 0 3px #0266C8,
+            0 0 3px #0266C8,
+            0 0 4px #0266C8,
+            0 0 4px #0266C8,
+            0 0 4px #0266C8,
+            0 0 5px #0266C8;
+    }
+
+    .retro3 {
+        text-shadow:
+            0 0 3px #B28BC0,
+            0 0 3px #B28BC0,
+            0 0 3px #B28BC0,
+            0 0 3px #B28BC0,
+            0 0 4px #B28BC0,
+            0 0 4px #B28BC0,
+            0 0 4px #B28BC0,
+            0 0 5px #B28BC0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .timer {
+        font-size: 4em;
+    }
+
+    .fecha {
+        font-size: 40px;
+        letter-spacing: 0.15em;
+    }
+
+    .cambiar {
+        font-size: 3em;
+    }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reloj</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="keywords" content="">
+    <meta name="Author" content="">
+    <meta>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="container-fluid d-flex justify-content-center align-items-center p-0">
+        <section class="w-75 retro1 d-flex flex-column justify-content-center" id="section">
+            <div class="d-flex justify-content-center align-items-center fecha">
+                <p class="px-1 px-md-3" id="diaSemana"></p>
+                <p class="px-1 px-md-3" id="dia"></p>
+                <p class="px-1 px-md-3">de</p>
+                <p class="px-1 px-md-3" id="mes"></p>
+                <p class="px-1 px-md-3">del</p>
+                <p class="px-1 px-md-3" id="anio"></p>
+            </div>
+
+            <div class="d-flex justify-content-around timer font-weight-bold">
+                <p class="px-1 px-md-0" id="hora"></p>
+                <p class="px-1 px-md-0">:</p>
+                <p class="px-1 px-md-0" id="minutos"></p>
+                <p class="px-1 px-md-0">:</p>
+                <p class="px-1 px-md-0" id="segundos"></p>
+                <p class="px-1 px-md-0" id="ampm">am</p>
+            </div>
+            <div class="cambiar font-weight-bold">
+                <a onclick="cambiarColor()" href="#" class="text-decoration-none text-reset"><</a>
+                <a onclick="cambiarColor()" href="#" class="text-decoration-none text-reset">></a>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/reloj.js"></script>
+</body>
+</html>
